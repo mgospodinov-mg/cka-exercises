@@ -7,7 +7,7 @@ Create a namespace called "development" and pod with image nginx called nginx on
 ```
 kubectl create ns development
 kubectl run nginx --image=nginx --restart=Never" -n development
-
+```
 </details>
 
 <details>
