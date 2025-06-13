@@ -5,4 +5,5 @@ Exercises to prepare for the CKA exam.
 [Question3](question3/question3.md)<br>
 [Question4](question4/question4.md)<br>
 [Question5](question5/question5.md)<br>
-[Question6](question6/question6.md)
+[Question6](question6/question6.md)<br>
+[Question7](question7/question7.md)
