@@ -50,7 +50,7 @@ spec:
          mountPath: /workdir
    - name: create
      image: alpine
-     command: ["/bin/sh" "-c" "touch /workdir/calm.txt]
+     command: ["/bin/sh", "-c", "touch /workdir/calm.txt"]
      volumeMounts:
        - name: workdir
          mountPath: /workdir
