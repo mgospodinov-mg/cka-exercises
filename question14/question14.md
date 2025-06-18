@@ -61,7 +61,7 @@ spec:
 ```
 
 ```
-kubectl create -f `/opt/KUCC00108/pod-spec-KUCC00108.yaml`
+kubectl create -f /opt/KUCC00108/pod-spec-KUCC00108.yaml
 ```
 </details>
 
