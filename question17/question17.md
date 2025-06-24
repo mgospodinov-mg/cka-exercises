@@ -121,6 +121,7 @@ kubectl -n minio get tenant
 
 <details>
 <summary> Clean Up</summary>
+
 ```
 helm -n minio uninstall minio-operator
 kubectl delete namespace minio
