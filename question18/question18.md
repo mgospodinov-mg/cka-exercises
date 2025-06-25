@@ -41,7 +41,7 @@ kubectl -n project-h800 apply -f sts.yaml
 ```
 
 <details>
-<summary> Solution </details>
+<summary> Solution</summary>
 
 ```
 kubectl -n project-h800 get sts, ds, deployment
@@ -56,6 +56,7 @@ Check number of pods
 ```
 kubectl -n project-h800 get pods
 ```
+
 </details>
 
 <details>
