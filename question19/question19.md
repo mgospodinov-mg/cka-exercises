@@ -88,6 +88,9 @@ Write `pod3` and `pod4` into the file `/opt/course/4/pods-terminated-first.txt`.
 <details>
 <summary> Clean Up </summary>
 
+```
 kubectl -n project-c13 delete pod pod1 pod2 pod3 pod4
+```
+
 </details>
 
