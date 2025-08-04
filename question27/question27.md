@@ -22,7 +22,6 @@ kubectl -n project-snake run db1-0 --labels=app=db1 --image=python:3 --port=1111
 kubectl -n project-snake run db2-0 --labels=app=db2 --image=python:3 --port=2222 --command -- python -m http.server 2222
 kubectl -n project-snake run vault-0 --labels=app=vault --image=python:3 --port=3333 --command -- python -m http.server 3333
 ```
-
 Check that the pods are created in the `project-snake` namespace
 
 ```
@@ -70,12 +69,10 @@ spec:
     - protocol: TCP
       port: 2222
 ```
-</details>
 
 ```
 kubectl -n project-snake get networkpolicies.networking.k8s.io
 ```
-
 Test the connection from the backend pod to the other pods:
 
 ```
@@ -83,7 +80,6 @@ kubectl -n project-snake exec backend-0 -- curl <podip_db1-0>:1111
 kubectl -n project-snake exec backend-0 -- curl <podip_db2-0>:2222
 kubectl -n project-snake exec backend-0 -- curl <podip_vault-0>:3333
 ```
-
 </details>
 
 <details>
